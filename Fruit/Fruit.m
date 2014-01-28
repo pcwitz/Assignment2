@@ -21,6 +21,11 @@
     return self;
 }
 
+- (NSString *)description
+{
+    return self.name;
+}
+
 - (NSString *) printSelf{
     return [[NSString alloc] initWithFormat:@"%@ is %@ and %@", _name, _color, _shape];
     

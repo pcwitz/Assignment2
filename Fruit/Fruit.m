@@ -10,7 +10,7 @@
 
 @implementation Fruit
 
-- initWithName:(NSString *)inName withColor:(NSString *)inColor withShape:(NSString *)inShape{
+- initWithName:(NSString *)inName andShape:(NSString *)inShape andColor:(NSString *)inColor {
     self = super.init;
     if (self) {
         _name = inName;
@@ -19,6 +19,11 @@
     }
 
     return self;
+}
+
+- (NSString *) printSelf{
+    return [[NSString alloc] initWithFormat:@"%@ is %@ and %@", _name, _color, _shape];
+    
 }
 
 @end

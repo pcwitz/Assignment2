@@ -10,6 +10,10 @@
 
 #import "ViewController.h"
 
+#import "Apple.h"
+#import "GrannySmith.h"
+#import "Fruit.h"
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -19,6 +23,27 @@
     self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
+    
+    
+    
+    
+    Apple * anApple = [[Apple alloc] init];
+    GrannySmith *notherApple = [[GrannySmith alloc] init];
+    
+
+    Fruit * aBanana = [[Fruit alloc] initWithName:@"Banana"  andShape:@"Curved" andColor:@"Yellow"];
+    Fruit * aGrape = [[Fruit alloc] initWithName:@"Grape" andShape:@"Round" andColor:@"Purple"];
+    
+    NSLog(@"%@ is %@ and %@.", [notherApple name], [notherApple shape], [notherApple color]);
+    NSLog(@"%@ is %@ and %@.", [anApple name], [anApple shape], [anApple color]);
+    
+    NSLog(@"%@", [aBanana printSelf]);
+    NSLog(@"%@", [notherApple printSelf]);
+    //NSLog(@"%@ is %@ and %@.", aBanana.name, aBanana.shape, aBanana.color);
+    NSLog(@"%@ is %@ and %@.", [aGrape name], [aGrape shape], [aGrape color]);
+    
+
+    
     return YES;
 }
 

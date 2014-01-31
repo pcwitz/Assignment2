@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		109DAF3A189B32FA00D3EE3B /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = 109DAF35189B32FA00D3EE3B /* Apple.m */; };
+		109DAF3B189B32FA00D3EE3B /* Fruit.m in Sources */ = {isa = PBXBuildFile; fileRef = 109DAF37189B32FA00D3EE3B /* Fruit.m */; };
+		109DAF3C189B32FA00D3EE3B /* GrannySmith.m in Sources */ = {isa = PBXBuildFile; fileRef = 109DAF39189B32FA00D3EE3B /* GrannySmith.m */; };
+		109DAF3F189B335600D3EE3B /* Vegetable.m in Sources */ = {isa = PBXBuildFile; fileRef = 109DAF3E189B335600D3EE3B /* Vegetable.m */; };
+		109DAF42189B389900D3EE3B /* Potato.m in Sources */ = {isa = PBXBuildFile; fileRef = 109DAF41189B389900D3EE3B /* Potato.m */; };
+		109DAF45189B38E600D3EE3B /* Onion.m in Sources */ = {isa = PBXBuildFile; fileRef = 109DAF44189B38E600D3EE3B /* Onion.m */; };
+		109DAF48189B390E00D3EE3B /* Pumpkin.m in Sources */ = {isa = PBXBuildFile; fileRef = 109DAF47189B390E00D3EE3B /* Pumpkin.m */; };
+		109DAF4A189B3F5B00D3EE3B /* iOS Simulator Screen shot Jan 30, 2014, 9.17.12 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 109DAF49189B3F5B00D3EE3B /* iOS Simulator Screen shot Jan 30, 2014, 9.17.12 PM.png */; };
 		8B650731189808D400D912AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B650730189808D400D912AF /* UIKit.framework */; };
 		8B650733189808D400D912AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B650732189808D400D912AF /* Foundation.framework */; };
 		8B650735189808D400D912AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B650734189808D400D912AF /* CoreGraphics.framework */; };
@@ -21,6 +29,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		109DAF34189B32FA00D3EE3B /* Apple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Apple.h; sourceTree = "<group>"; };
+		109DAF35189B32FA00D3EE3B /* Apple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Apple.m; sourceTree = "<group>"; };
+		109DAF36189B32FA00D3EE3B /* Fruit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fruit.h; sourceTree = "<group>"; };
+		109DAF37189B32FA00D3EE3B /* Fruit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fruit.m; sourceTree = "<group>"; };
+		109DAF38189B32FA00D3EE3B /* GrannySmith.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrannySmith.h; sourceTree = "<group>"; };
+		109DAF39189B32FA00D3EE3B /* GrannySmith.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrannySmith.m; sourceTree = "<group>"; };
+		109DAF3D189B335600D3EE3B /* Vegetable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vegetable.h; sourceTree = "<group>"; };
+		109DAF3E189B335600D3EE3B /* Vegetable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vegetable.m; sourceTree = "<group>"; };
+		109DAF40189B389900D3EE3B /* Potato.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Potato.h; sourceTree = "<group>"; };
+		109DAF41189B389900D3EE3B /* Potato.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Potato.m; sourceTree = "<group>"; };
+		109DAF43189B38E600D3EE3B /* Onion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Onion.h; sourceTree = "<group>"; };
+		109DAF44189B38E600D3EE3B /* Onion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Onion.m; sourceTree = "<group>"; };
+		109DAF46189B390E00D3EE3B /* Pumpkin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pumpkin.h; sourceTree = "<group>"; };
+		109DAF47189B390E00D3EE3B /* Pumpkin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pumpkin.m; sourceTree = "<group>"; };
+		109DAF49189B3F5B00D3EE3B /* iOS Simulator Screen shot Jan 30, 2014, 9.17.12 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iOS Simulator Screen shot Jan 30, 2014, 9.17.12 PM.png"; sourceTree = "<group>"; };
 		8B65072D189808D400D912AF /* Fruit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fruit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B650730189808D400D912AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8B650732189808D400D912AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -83,12 +106,27 @@
 		8B650736189808D400D912AF /* Fruit */ = {
 			isa = PBXGroup;
 			children = (
+				109DAF34189B32FA00D3EE3B /* Apple.h */,
+				109DAF35189B32FA00D3EE3B /* Apple.m */,
+				109DAF36189B32FA00D3EE3B /* Fruit.h */,
+				109DAF37189B32FA00D3EE3B /* Fruit.m */,
+				109DAF38189B32FA00D3EE3B /* GrannySmith.h */,
+				109DAF39189B32FA00D3EE3B /* GrannySmith.m */,
 				8B65073F189808D400D912AF /* AppDelegate.h */,
 				8B650740189808D400D912AF /* AppDelegate.m */,
 				8B650748189808D400D912AF /* ViewController.h */,
 				8B650749189808D400D912AF /* ViewController.m */,
 				8B65074B189808D400D912AF /* ViewController.xib */,
 				8B650737189808D400D912AF /* Supporting Files */,
+				109DAF3D189B335600D3EE3B /* Vegetable.h */,
+				109DAF3E189B335600D3EE3B /* Vegetable.m */,
+				109DAF49189B3F5B00D3EE3B /* iOS Simulator Screen shot Jan 30, 2014, 9.17.12 PM.png */,
+				109DAF40189B389900D3EE3B /* Potato.h */,
+				109DAF41189B389900D3EE3B /* Potato.m */,
+				109DAF43189B38E600D3EE3B /* Onion.h */,
+				109DAF44189B38E600D3EE3B /* Onion.m */,
+				109DAF46189B390E00D3EE3B /* Pumpkin.h */,
+				109DAF47189B390E00D3EE3B /* Pumpkin.m */,
 			);
 			path = Fruit;
 			sourceTree = "<group>";
@@ -162,6 +200,7 @@
 				8B650743189808D400D912AF /* Default.png in Resources */,
 				8B650745189808D400D912AF /* Default@2x.png in Resources */,
 				8B650747189808D400D912AF /* Default-568h@2x.png in Resources */,
+				109DAF4A189B3F5B00D3EE3B /* iOS Simulator Screen shot Jan 30, 2014, 9.17.12 PM.png in Resources */,
 				8B65074D189808D400D912AF /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -173,8 +212,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				109DAF3B189B32FA00D3EE3B /* Fruit.m in Sources */,
+				109DAF3A189B32FA00D3EE3B /* Apple.m in Sources */,
+				109DAF42189B389900D3EE3B /* Potato.m in Sources */,
+				109DAF45189B38E600D3EE3B /* Onion.m in Sources */,
+				109DAF3C189B32FA00D3EE3B /* GrannySmith.m in Sources */,
 				8B65073D189808D400D912AF /* main.m in Sources */,
 				8B650741189808D400D912AF /* AppDelegate.m in Sources */,
+				109DAF3F189B335600D3EE3B /* Vegetable.m in Sources */,
+				109DAF48189B390E00D3EE3B /* Pumpkin.m in Sources */,
 				8B65074A189808D400D912AF /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +344,7 @@
 				8B650752189808D500D912AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

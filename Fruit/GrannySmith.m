@@ -15,6 +15,6 @@
     [self setShape:@"Round"];
     [self setColor:@"Green"];
     return self;
-
 }
+
 @end
